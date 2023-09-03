@@ -15,7 +15,7 @@ module subtractor_16_bit_test;
 	 end
 	 
 	 initial begin
-	 $monitor("X=%4b,Y=%4b,Z=%4b \n",X,Y,Z);
+	 $monitor("X=%b,Y=%b,Z=%b \n",X,Y,Z);
 	 end
 	 endmodule
 	 
