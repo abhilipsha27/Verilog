@@ -1,4 +1,4 @@
-module vending_machine_tb();
+module vending_machine_test;
   reg clk, rst;
   reg [1:0] coin;
   wire out, change5,change10;
